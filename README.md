@@ -9,3 +9,6 @@ This repository contains an Exploratory Data Analysis (EDA) performed on [Palmor
 4. Data Visualisation
 5. Insights and Conclusions
 
+### Data Import
+I launched PowerBI Desktop. After launching, I clicked on home,get data, Ichose the data source as CSV and clicked 'connect'. Iselected the dataset and loaded it into PowerBI.
+### Data Cleaning and Transformation

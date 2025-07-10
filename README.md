@@ -11,6 +11,7 @@ This repository contains an Exploratory Data Analysis (EDA) performed on [Palmor
 
 ### Data Import
 I launched PowerBI Desktop. After launching, I clicked on home,get data, Ichose the data source as excel and clicked 'connect'. I selected the dataset 'Palmora Group Emp-Data' and loaded it into PowerBI. I did the same for the CSV file 'Palmora Group Bonus Rules_083311'. I did the same for the dataset 'Bonus Mapping'.
+
 ### Data Cleaning and Transformation
 After the data was fully loaded, I transformed the data (took it to the mechanic's workshop) by using the Power Query Editor through the following steps:
     a. I filtered the rows to remove duplicate datasets (names of employees)
@@ -19,6 +20,7 @@ After the data was fully loaded, I transformed the data (took it to the mechanic
     d. I added two other conditional columns namely 'Salary Band' and 'Rating sort'.
     e. I ensured that the datatype is exactly the same with the type of data in each column.
 After all these steps, I clicked on 'Apply & Close' and loaded the data completely into PowerBI.
+
 ### Descriptive Statistics
 I used the modellling tab to create new measures for key statistics:
     - Gender Count: 'Gender Count = COUNT('Palmoria Group emp-data_083200'[Gender])'
@@ -30,6 +32,7 @@ I used the modellling tab to create new measures for key statistics:
     - Amount as Bonus: 'Amount as Bonus = SUMX('Palmoria Group emp-data_083200', 'Palmoria Group emp-data_083200'[Salary] * SWITCH('Palmoria Group emp-data_083200'[Rating], "Very Poor", LOOKUPVALUE('bonus mapping'[Very Poor],'bonus mapping'[Department],'Palmoria Group emp-data_083200'[Department]), "Poor", LOOKUPVALUE('bonus mapping'[Poor],'bonus mapping'[Department],'Palmoria Group emp-data_083200'[Department]), "Average", LOOKUPVALUE('bonus mapping'[Average],'bonus mapping'[Department],'Palmoria Group emp-data_083200'[Department]), "Good", LOOKUPVALUE('bonus mapping'[Good],'bonus mapping'[Department],'Palmoria Group emp-data_083200'[Department]), "Very Good", LOOKUPVALUE('bonus mapping'[Very Good],'bonus mapping'[Department],'Palmoria Group emp-data_083200'[Department]),0))'
 
     - New Salary: 'New Salary = SUMX('Palmoria Group emp-data_083200','Palmoria Group emp-data_083200'[Salary] + 'Palmoria Group emp-data_083200'[Amount as Bonus])'
+I tested all the measures above by visualising them in cards and a table to ensure they worked.
 
-
+### Data Visualisation
     

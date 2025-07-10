@@ -14,7 +14,7 @@ I launched PowerBI Desktop. After launching, I clicked on home,get data, Ichose 
 
 ### Data Cleaning and Transformation
 After the data was fully loaded, I transformed the data (took it to the mechanic's workshop) by using the Power Query Editor through the following steps:
-    a. I filtered the rows to remove duplicate datasets (names of employees)
+    a. I filtered the rows to remove duplicate datasets (names of employees).
     b. I added a conditional column with the heading as 'Region' to split all the complany locations, namely; South West, North West and North Central and I reorded the new conditional column and placed it beside the locaion clomun.
     c. I filtered the department and salary columns to remove all 'Nulls' from the dataset.
     d. I inserted a generic gender (female) to all employees that did not reveal their gender.

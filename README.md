@@ -17,8 +17,9 @@ After the data was fully loaded, I transformed the data (took it to the mechanic
     a. I filtered the rows to remove duplicate datasets (names of employees)
     b. I added a conditional column with the heading as 'Region' to split all the complany locations, namely; South West, North West and North Central and I reorded the new conditional column and placed it beside the locaion clomun.
     c. I filtered the department and salary columns to remove all 'Nulls' from the dataset.
-    d. I added two other conditional columns namely 'Salary Band' and 'Rating sort'.
-    e. I ensured that the datatype is exactly the same with the type of data in each column.
+    d. I inserted a generic gender (female) to all employees that did not reveal their gender.
+    e. I added two other conditional columns namely 'Salary Band' and 'Rating sort'.
+    f. I ensured that the datatype is exactly the same with the type of data in each column.
 After all these steps, I clicked on 'Apply & Close' and loaded the data completely into PowerBI.
 
 ### Descriptive Statistics
@@ -45,4 +46,16 @@ I tested all the measures above by visualising them in cards and a table to ensu
 
 ### Data Visualisation
 In this stage, I started to visualise all my already transformed data through the use of charts:
-    
+a. **Gender Distribution:** For this, I used pie chart and column charts as well as cards and a slicer to visualise this dataset.
+b. **Insights on Ratings based on Gender:** I used a clustered column chart to visualise this.
+c. **Company’s Salary Structure:** I used a clustered column chart to visualise the salary structure based on gender by region and department and a stacked bar chart to visualise the average salary by gender. I used a slicer to be able to visualise based on gender.
+d. **Minimum Salary Requirement:** I used a card to view the number of emloyees that are paid below the minimum salary of $90,0000 and I used a stacked bar chart to visualise the number of employee by salary band ($10,000 - $20,000, $20,000 - $30,000 and so on) and the number of employees below the minimum salary payment. I used a slicer to be able to visualise this by regions.
+e. **Bonus Payment and New Salary based on Performance:** I used a tablt to visualise the bonus and new salary (bonus + fromer salary) to be paid to each employee based on the perforance, rating and department of each emolyee. I used a stacked column chart to visualise the total amount of the new salary to be paid to all employee based on regions and a card to view the total amount to be paid company-wide to all employees.
+
+### Insights and Conclusions
+Based on the data analysed and visualised, I found out that gender distribution of the company is almost evenly distributed with males making 49.26% of the total population and females 50.74% , this shows that the news headlines were wrong about Palomora's bias against females and females dominate based on the data analysed.
+Although Palmora does well in the gender department, most employees are average on the ratings possibly due to current working conditions and this can be improved possibly by having an inclusive training session across all regions. 
+Palmora does not meet the minimum payment requirement based on the new regulation for manufacturing companies, based in the data analysed, females are more affected than males in this area. This should also be looked into and wokrked upon. 
+Lastly, The salary for the South West region should be increased as they are the least paid across all regions even after the bonus and new salary has been implemented.
+
+Below is the file of the analysis named Palmora Data Analysis

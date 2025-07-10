@@ -58,4 +58,4 @@ Although Palmora does well in the gender department, most employees are average 
 Palmora does not meet the minimum payment requirement based on the new regulation for manufacturing companies, based in the data analysed, females are more affected than males in this area. This should also be looked into and wokrked upon. 
 Lastly, The salary for the South West region should be increased as they are the least paid across all regions even after the bonus and new salary has been implemented.
 
-Below is the file of the analysis named [Download Palmora Data Analysis](Palmora-Data-Analysis.pbix)
+Below is the file of the analysis named [Download Palmora Data Analysis](Palmora-PowerBI-Analysis/Palmora-Data-Analysis.pbix)

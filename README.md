@@ -14,9 +14,9 @@ I launched PowerBI Desktop. After launching, I clicked on home,get data, Ichose 
 
 ### Data Cleaning and Transformation
 After the data was fully loaded, I transformed the data (took it to the mechanic's workshop) by using the Power Query Editor through the following steps:
-    a. I filtered the rows to remove duplicate datasets (names of employees).
-    b. I added a conditional column with the heading as 'Region' to split all the complany locations, namely; South West, North West and North Central and I reorded the new conditional column and placed it beside the locaion clomun.
-    c. I filtered the department and salary columns to remove all 'Nulls' from the dataset.
+ I filtered the rows to remove duplicate datasets (names of employees).
+I added a conditional column with the heading as 'Region' to split all the complany locations, namely; South West, North West and North Central and I reorded the new conditional column and placed it beside the locaion clomun.
+3. I filtered the department and salary columns to remove all 'Nulls' from the dataset.
     d. I inserted a generic gender (female) to all employees that did not reveal their gender.
     e. I added two other conditional columns namely 'Salary Band' and 'Rating sort'.
     f. I ensured that the datatype is exactly the same with the type of data in each column.
@@ -58,4 +58,4 @@ Although Palmora does well in the gender department, most employees are average 
 Palmora does not meet the minimum payment requirement based on the new regulation for manufacturing companies, based in the data analysed, females are more affected than males in this area. This should also be looked into and wokrked upon. 
 Lastly, The salary for the South West region should be increased as they are the least paid across all regions even after the bonus and new salary has been implemented.
 
-Below is the file of the analysis named Palmora Data Analysis
+Below is the file of the analysis named [Download Palmora Data Analysis](Pamlora-Data-Analysis)
